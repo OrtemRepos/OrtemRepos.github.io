@@ -1,0 +1,60 @@
+.contact {
+    display: grid;
+    text-align: center;
+    margin: 1%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-radius: 1%;
+    background: linear-gradient(145deg, #8a7afb, #7467d4);
+    box-shadow:  13px 13px 26px #7568d6,
+             -13px -13px 26px #8d7cff;
+    gap: 10px;
+}
+.email {
+    padding-top: 17px;
+}
+.feedback_zone{
+    border-radius: 1%;
+    background: linear-gradient(145deg, #8a7afb, #7467d4);
+    box-shadow:  13px 13px 26px #7568d6,
+             -13px -13px 26px #8d7cff;
+    text-align: center;
+    margin: 1%;
+    padding-top: 35px;
+}
+.phone {
+    padding-top: 17px;
+}
+.el {
+    background-color: #5646d1;
+    border-radius: 100% 10% 100% 11% / 50% 69% 61% 60%;
+    width: 70%;
+}
+@media (prefers-color-scheme: dark)
+{
+    .contact{
+        background: linear-gradient(145deg, #5f1a7f, #000000);
+    }
+    .el{
+        background-color: #200b299d;
+    }
+    .feedback_zone{
+        background: linear-gradient(145deg, #5f1a7f, #000000);
+    }
+    input {
+        background: #333;
+        color: white;
+    }
+    option {
+        background: #333;
+    }
+    select {
+        background: #333;
+        color: white;
+    }
+    textarea {
+        background: #333;
+        color: white;
+    }
+
+}

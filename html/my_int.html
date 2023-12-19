@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/my_int.css">
+    <script defer src="../script/my_int.js"></script>
+    <style>
+        *,
+        *::before,
+        *::after {
+          box-sizing: border-box;
+        }
+      </style>
+</head>
+<header>
+    <div class="header_backgroung">
+        <div class="header_menu">
+            <a class="logo" href="../main.html"><img src="../pic/png-transparent-web-address-website-internet-symbol-icon-communication-online-www.png" alt="logo", width="50px"></a>
+            <a href="../main.html" class="nav1 nav"><p>О себе</p></a>
+            <a href="../main.html#my_ben" class="nav2 nav"><p>Мои умения</p></a>
+            <a href="../html/resume.html" class="nav3 nav"><p>Резюме</p></a>
+            <a href="../html/my_int.html" class="nav4 nav"><p>Мои интересы</p></a>
+            <a href="../html/contact.html" class="nav5 nav"><p>Контакты</p></a>
+        </div>
+    </div>
+    <div class="title">
+        <h2>Веб-технологии</h2>
+        <h4>Университет Дубна</h4>
+    </div>
+</header>
+<body>
+    <section class="gallery_and_text">
+        <div class="gallery_and_text_block">
+            <div class="text_block">
+                <h2>Что мне нравится</h2>
+                <p><span>Б</span>ла бла бла бла бла бла блапьфльпжфьждж бла бла</p>
+                <p><span>Б</span>ла бла бла бла блаьывльа бла бла блафладвадл бла блаыьвлаьла бла</p>
+                <p><span>Б</span>ла бла бла блааалjnjnjапьфлmmfdьлала блааа балааалалkkkkkkkkkkkала блааа лаыфааыва</p>
+                <p><span>Б</span>fpdslafpkadpokfomkmjkmknknknnkpkdesffoakdfkaodpkfpak,dfoadfkаьыфдаьдыфьаджaodokgfomglsdmf</p>
+                <p><span>А</span>ааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааааа</p>
+            </div>
+            <div class="gallery">
+                <div class="slider">
+                    <img id="pict" src="../pic/1.png">
+                </div>
+                <button id="next" onclick="slideChange(1)">Вперед</button>
+                <button id="prev" onclick="slideChange(-1)">Назад</button>
+            </div>
+        </div>
+    </section>
+    <section class="task">
+        <div class="todo">
+            <h2>Мои задачи</h1>
+            <div class="todo__input">
+                <input class="todo__text" type="text">
+                <span class="todo__add"></span>
+            </div>
+            <select class="todo__options">
+                <option value="active">активные</option>
+                <option value="completed">завершённые</option>
+                <option value="deleted">удалённые</option>
+            </select>
+            <ul class="todo__items" data-todo-option="active"></ul>
+        </div>
+        <div class="some_text">
+            <h2>Мои планы</h2>
+            <p>БЛАЛАЛЛВАЛЫАЛЫЩДВЛАЛВЫдпкфжпьджАЫЛВДАЫЬЛАД</p>
+            <p>БЛАЛАЛЛВАЛЫАЛЫЩДВЛАЛпдкфдВЫАЫЛВДАЫЬЛАД</p>
+            <p>БЛАЛАЛЛВАЛЫАЛЫЩДВЛАЛВЫАЫЛВДлафьлпфтклоптАЫЬЛАД</p>
+            <p>БЛАЛАЛЛВАЛЫАЛЫЩДВЛАЛВЫАдфпжпбЫЛВДАЫЬЛАД</p>
+            <p>БЛАЛАЛЛВАЛЫАЛЫЩДВЛАЛпьфдпьдакпдьфькпдВЫАЫЛВДАЫЬЛАД</p>
+        </div>
+    </section>
+    <section class="pomidor">
+        <div class="some_text">
+            <h2>Таймер для работы</h2>
+            <p>FKSFKlkl;df;dgkdlg;ssldlg</p>
+            <p>gsdlmglmlsdgmlmgs</p>
+            <p>FKSFKlkl;df;dgkdlg;ssldlg</p>
+            <p>gsdlmglmlsdgmlmgs</p><p>FKSFKlkl;df;dgkdlg;ssldlg</p>
+            <p>gsdlmglmlsdgmlmgs</p>
+        </div>
+        <div id="pomodoro-app">
+            <div class="container" id="container">
+              <div class="timer" id="timer">
+                <div class="time" id="time">
+                  <span id="minutes">25</span>
+                  <span id="colon">:</span>
+                  <span id="seconds">00</span>
+                </div>
+                <div class="filler" id="filler"></div>
+              </div>
+            <div class="buttons" id="buttons">
+                <button id="work">Работа!</button>
+                <button id="shortBreak">Поспать</button>
+                <button id="longBreak">Подремать</button>
+                <button id="stop">Стоп</button>
+                <button id="pause">Пауза</button>
+              </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer>
+    <div class="footer">
+        <div class="icon">
+            💀👽💀 
+        </div>
+        <div class="copyright">Сайт разработан каким-то ноунеймом, Copyright © 2134</div>
+    </div>
+</footer>
+</html>

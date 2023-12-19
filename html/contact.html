@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="../script/form.js"></script>
+</head>
+<header>
+    <div class="header_backgroung">
+        <div class="header_menu">
+            <a class="logo" href="../main.html"><img src="../pic/png-transparent-web-address-website-internet-symbol-icon-communication-online-www.png" alt="logo", width="50"></a>
+            <a href="../main.html" class="nav1 nav"><p>О себе</p></a>
+            <a href="../main.html#my_ben" class="nav2 nav"><p>Мои умения</p></a>
+            <a href="../html/resume.html" class="nav3 nav"><p>Резюме</p></a>
+            <a href="../html/my_int.html" class="nav4 nav"><p>Мои интересы</p></a>
+            <a href="../html/contact.html" class="nav5 nav"><p>Контакты</p></a>
+        </div>
+    </div>
+    <div class="title"><h2>Веб-технологии</h2>
+        <h4>Университет Дубна</h4>
+    </div>
+</header>
+<body>
+    <section class="main_section">
+        <div class="contact">
+            <div class="social el">
+                <p>Я в социальных сетях:</p>
+                <div class="container_pic">
+                    <a href="https://vk.com/sadbastardlol"><img src="../pic/VK_logo.svg.png" alt="vk" width="30"></a>
+                    <a href="https://github.com/OrtemRepos"><img src="../pic/25231.png" alt="github" width="30"></a>
+                    <a href="https://t.me/ortem917"><img src="../pic/Telegram_logo.svg.webp" alt="telegram" width="30"></a>
+                </div>
+            </div>
+            <div class="email el">
+                Моя электронная почта:
+                <p><i>sarg.22@uni-dubna.ru</i></p>
+            </div>
+            <div class="phone el">
+                Мой номер телефона:
+                <p><i>+79999999999</i></p>
+            </div>
+        </div>
+    </section>
+    <section class="feedback_section">
+        <div class="feedback_zone">
+            <h2>Форма для связи</h2>
+                <form action="form" method="GET" id="form" onsubmit="alert('submit'); return false">
+                    <fieldset class="phone_name">
+                        <label for="name" id="name">Ваше имя</label>
+                        <input type="text" id="name" placeholder="Введите ФИО" required>
+                        <label for="phone" id="phone_label">Номер телефона</label>
+                        <input type="tel" id="phone" pattern="^\+7[1-9]{10}$" placeholder="Введите номер телефона" required>
+                        <label hidden for="date" id="date_label">Дата встречи</label>
+                        <input hidden type="date" pattern="^\d\.\d\.\d$" id="date" placeholder="Введите дату встречи" onclick="dateF()">
+                        <label hidden for="url_link" id="url_link_label">Введите ссылку</label>
+                        <input hidden type="url" id="url_link" placeholder="https://www.google.com/">
+                        <label hidden for="email" id="email_label">Email</label>
+                        <input hidden type="email" id="email" placeholder="Введите email">
+                    </fieldset>
+                    <fieldset class="type_feedback">
+                        <fieldset name="method_for_feedback">
+                            <legend>Добавьте способ ответа:</legend>
+                            <label><input checked name="method" type="radio" id="phone" value="phone" onchange="radioChoise('phone')">Телефон</label><br>
+                            <label><input name="method" type="radio" id="meet" value="meet" onchange="radioChoise('date')">Назначить встречу</label><br>
+                            <label><input name="method" type="radio" id="email" value="email" onchange="radioChoise('email')">Электронная почта</label><br>
+                            <label><input name="method" type="radio" id="other" value="other" onchange="radioChoise('url_link')">Другое</label><br>
+                            <label><input name="method" type="radio" id="nothing" value="no" onchange="radioChoise('no')">Не надо отвечать</label><br>
+                        </fieldset>
+                    </fieldset>
+                    <fieldset class="theme">
+                        <select name="category" id="list" onchange="changeList()">
+                            <option value="study" selected>Учеба</option>
+                            <option value="personal">Личный вопрос</option>
+                            <option value="work">Работа</option>
+                            <option value="enjoy">Досуг</option>
+                        </select>
+                    </fieldset>
+                    <fieldset id="checkbox">
+                        <legend>Что по учебе?</legend>
+                        <label><input type="checkbox" name="study" id="help">Нужна помощь</label><br>
+                        <label><input type="checkbox" name="study" id="colab">Сотрудничество по заданию</label><br>
+                        <label><input type="checkbox" name="study" id="answer">Ответы и готовые задания</label><br>
+                        <label><input type="checkbox" name="study" id="session">Подготовка к сессии</label><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Ваше сообщение</legend>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </fieldset>
+                    <input type="submit">
+                    <input type="reset">
+                </form>
+        </div>
+    </section>
+</body>
+<footer>
+    <div class="footer">
+        <div class="icon">
+            💀👽💀 
+        </div>
+        <div class="copyright">Сайт разработан каким-то ноунеймом, Copyright © 2134</div>
+    </div>
+</footer>
+</html>

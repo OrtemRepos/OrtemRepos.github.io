@@ -1,0 +1,74 @@
+.task{
+    background: linear-gradient(145deg, #5f1a7f, #000000);
+  }
+  .pomidor{
+    background: linear-gradient(145deg, #5f1a7f, #000000);
+  }
+  .gallery_and_text_block{
+    background: linear-gradient(145deg, #5f1a7f, #000000);
+  }
+  .todo__input{
+    background-color: #333;
+  }
+  .todo__options > option {
+    color: white;
+    background-color: #333;
+  }
+  .todo__text{
+    background-color: rgba(154, 143, 143, 0.37);
+    color: white;
+  }
+  .todo__text:disabled{
+    background-color: #333;
+  }
+  .todo__item{
+    background: #333;
+  }
+  .contact{
+    background: linear-gradient(145deg, #5f1a7f, #000000);
+}
+.el{
+    background-color: #200b299d;
+}
+.feedback_zone{
+    background: linear-gradient(145deg, #5f1a7f, #000000);
+}
+input {
+    background: #333;
+    color: white;
+}
+option {
+    background: #333;
+}
+select {
+    background: #333;
+    color: white;
+}
+textarea {
+    background: #333;
+    color: white;
+}
+.container_photo {
+    background: linear-gradient(145deg, #5f1a7f, #000000);
+}
+.what {
+    background: linear-gradient(145deg, #5f1a7f, #000000);
+}
+.element{
+    background: linear-gradient(145deg, #5f1a7f00, #000000);
+}
+.table_container{
+    background: linear-gradient(145deg, #5f1a7f, #000000);
+}
+.table li {
+    background: linear-gradient(145deg, #5f1a7f00, #000000);
+}
+.important{
+    background: linear-gradient(145deg, #5f1a7f, #000000);
+}
+.table{
+    background: linear-gradient(145deg, #5f1a7f, #000000);
+}
+.span_style{
+    background: linear-gradient(145deg, #5f1a7f00, #000000);
+}

@@ -1,0 +1,47 @@
+th {
+    border: 1px solid rgb(73, 47, 188);
+}
+td {
+    border: 1px solid rgb(73, 47, 188);
+}
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table {
+    margin: 1%;
+    padding: 20px;
+    border-radius: 1%;
+    background: linear-gradient(145deg, #8a7afb, #7467d4);
+}
+.span_style {
+    background: linear-gradient(145deg, #a294ff, #887cd6);
+}
+
+    .table{
+        background: linear-gradient(145deg, #5f1a7f, #000000);
+    }
+    .span_style{
+        background: linear-gradient(145deg, #5f1a7f00, #000000);
+    }
+
+html {
+    background: rgb(23, 28, 37);
+    color: white;
+}
+.header_backgroung {
+    background: #35154c;   
+}
+.header_menu a {
+    color: white;
+}
+.nav{
+    background: linear-gradient(145deg, #5f1a7f, #000000);
+}
+.footer {
+    background: linear-gradient(145deg, #5f1a7f, #000000);
+}
+.title{
+    background: linear-gradient(145deg, #5f1a7f, #000000);
+}
