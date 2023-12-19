@@ -18,7 +18,8 @@ table {
 .span_style {
     background: linear-gradient(145deg, #a294ff, #887cd6);
 }
-
+@media (prefers-color-scheme: dark)
+{
     .table{
         background: linear-gradient(145deg, #5f1a7f, #000000);
     }
@@ -26,22 +27,23 @@ table {
         background: linear-gradient(145deg, #5f1a7f00, #000000);
     }
 
-html {
-    background: rgb(23, 28, 37);
-    color: white;
-}
-.header_backgroung {
-    background: #35154c;   
-}
-.header_menu a {
-    color: white;
-}
-.nav{
-    background: linear-gradient(145deg, #5f1a7f, #000000);
-}
-.footer {
-    background: linear-gradient(145deg, #5f1a7f, #000000);
-}
-.title{
-    background: linear-gradient(145deg, #5f1a7f, #000000);
+    html {
+        background: rgb(23, 28, 37);
+        color: white;
+    }
+    .header_backgroung {
+        background: #35154c;   
+    }
+    .header_menu a {
+        color: white;
+    }
+    .nav{
+        background: linear-gradient(145deg, #5f1a7f, #000000);
+    }
+    .footer {
+        background: linear-gradient(145deg, #5f1a7f, #000000);
+    }
+    .title{
+        background: linear-gradient(145deg, #5f1a7f, #000000);
+    }
 }
